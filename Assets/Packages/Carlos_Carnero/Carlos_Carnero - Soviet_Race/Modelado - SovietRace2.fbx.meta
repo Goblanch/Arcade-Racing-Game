@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 9ef504dd43ff7454e9fda99e2e1f622a
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: ab2290b5170e98746871f08e2b399bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bricks
+    second: {fileID: 2100000, guid: 8b405935f7d3b77418a87def8ecce60e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Concrete
+    second: {fileID: 2100000, guid: 4d9b9c2fe5a7ed045bcdeb978906f174, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Concrete.Red
+    second: {fileID: 2100000, guid: a6e5c07fb2ae6be419c90ab723359cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cone_Orange
+    second: {fileID: 2100000, guid: dfb4b86dae9a65c42b9941ae4f2ddee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Cone_Yelow
+    second: {fileID: 2100000, guid: 6bc3e3a9d0f8d364fa826a10d91250df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Dirt
+    second: {fileID: 2100000, guid: 787ddda1a3a376642b103ea2463079ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Glass
+    second: {fileID: 2100000, guid: 4947481d0be62344bb817001da5b6004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Grass
+    second: {fileID: 2100000, guid: 34d5559f1c215ff46a634fb05835bfb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Ind_Concrete
+    second: {fileID: 2100000, guid: 9d532281b23c38348a5ab60f56fc287e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Iron
+    second: {fileID: 2100000, guid: 44bfd07782b7e554fbb45fcae8cb1643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Iron.Red
+    second: {fileID: 2100000, guid: 45c5a4437dee5b041a0a722dd7b33163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Leaf
+    second: {fileID: 2100000, guid: 34690806a6f643a488bae0bc03ad98b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Light
+    second: {fileID: 2100000, guid: 113a4df0cf0bdb34f93c4d7732e72259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Light.Soft
+    second: {fileID: 2100000, guid: 66f84d87d5ab8844b8c58c8792b3d708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pavment_Kerbstone
+    second: {fileID: 2100000, guid: 4c1400e337ddf634b90f6ec6d270d116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Pavment_Kerbstone.ind
+    second: {fileID: 2100000, guid: e495501f260eff24aac1b04f3b23e232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Propaganda_1
+    second: {fileID: 2100000, guid: 9537bd7d1463c0e429ac74991be26cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Propaganda_H_1
+    second: {fileID: 2100000, guid: 2692f11fe9135f94faffb970b406c3df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Propaganda_H_2
+    second: {fileID: 2100000, guid: 71d075b43fba0454ba8a91f5d67e1dce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Propaganda_H_3
+    second: {fileID: 2100000, guid: f8190c22529bf524c8ae98f76689414a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Propaganda_V_2
+    second: {fileID: 2100000, guid: 7eaaaffdc5a6ccf4981e6d72493a4fa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road_Asphalt
+    second: {fileID: 2100000, guid: e0017cb89665ad84aba16fd90539e1b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road_Asphalt_ind
+    second: {fileID: 2100000, guid: 68af0836ccb3e694394ba93164810a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road_Paint_White
+    second: {fileID: 2100000, guid: 5f3c8b9ff04796a478498f0ed350deff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Road_Paint_Yelow
+    second: {fileID: 2100000, guid: 0ccb6ef3267c9d442809c02c644c321e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Roof
+    second: {fileID: 2100000, guid: f634a374d3c5c604196c8fa10133a34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Kiev
+    second: {fileID: 2100000, guid: 5910239de18d6094faf030f102097287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Krakow
+    second: {fileID: 2100000, guid: d1299ca31c8fae142aaac5657932334e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Moscow
+    second: {fileID: 2100000, guid: 1a96511a27a31ba44bc2c232e6d2385a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_SanPetesburg
+    second: {fileID: 2100000, guid: 6fda2b271868b3a4583e16e26810066c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Stalingrad
+    second: {fileID: 2100000, guid: e127f745047c31b49af2ad92417ec109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Tula
+    second: {fileID: 2100000, guid: 1b59af67a790ac247a652cba58ba3f53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Sign_Warsaw
+    second: {fileID: 2100000, guid: 8c217109946ab89429a0bba8cc75849f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_White
+    second: {fileID: 2100000, guid: b2fab16857d49bf489a8cf8c7c37cefe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_White_Bricks
+    second: {fileID: 2100000, guid: 35a4009f992bd3546a163f68366e2d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Wood
+    second: {fileID: 2100000, guid: 582b233100f5a6242b5e8c673a2246eb, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_2
+    second: {fileID: 2800000, guid: 863aaf78abc4f2a4ea8505209d6d65df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_Ind
+    second: {fileID: 2800000, guid: e827fe2cc8e018848be36c94b9bff5cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bricks2
+    second: {fileID: 2800000, guid: 308368a84fc0b0246983fb8340f83e91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Propaganda_H1
+    second: {fileID: 2800000, guid: 71bec949eff713847980ccfcce02d799, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Propaganda_H2
+    second: {fileID: 2800000, guid: 31ffa92d7dbadf04ea0788dc1a2b5678, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Propaganda_H3
+    second: {fileID: 2800000, guid: ba0845b15ca3af3439d7830be8bb6afc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Propaganda_V1
+    second: {fileID: 2800000, guid: 0d8c124c55f184e42995f7bfad1d143b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Propaganda_V2
+    second: {fileID: 2800000, guid: 2b73f83494070c74dbf2477b804f256b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Kiev
+    second: {fileID: 2800000, guid: a26af080c5d91ac4590cf31f55a404d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Krakow
+    second: {fileID: 2800000, guid: f49fb5c935a91ad4293c590429f3759b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Moscow
+    second: {fileID: 2800000, guid: 9747f730d4cae8e4a9b43a1526955606, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_St-Petesburg
+    second: {fileID: 2800000, guid: 2f2f4087b3d0ad740b1485380cc00990, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Stalingrad
+    second: {fileID: 2800000, guid: 4bf4648288046c34d9b36660ee9f4909, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Tula
+    second: {fileID: 2800000, guid: 37f7338be3e2eb646952a3cec4301b81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sign_Warsaw
+    second: {fileID: 2800000, guid: a72138af6a5c5bf4185b3cc47a098520, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Bricks
+    second: {fileID: 2800000, guid: be92e9b666c72874e9ab892afcdfb793, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

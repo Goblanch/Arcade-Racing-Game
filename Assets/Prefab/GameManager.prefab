@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5807604000430619762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5807604000430619764}
+  - component: {fileID: 5807604000430619765}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5807604000430619764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807604000430619762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5807604000430619765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807604000430619762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ecbde78363be44f95bac1822e0e8fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCameraPrefab: {fileID: 7144967909353252724, guid: 51106148cfff2e846b969f856df299e7,
+    type: 3}
+  hudPrefab: {fileID: 5208208387182581863, guid: 4382b86e70ddae14a8462b3c3e28db12,
+    type: 3}
+  pauseMenu: {fileID: 6087675822756889163, guid: 0b4b74c57bef295499e5aed3d2f3a92f,
+    type: 3}
+  carList:
+  - name: Repartidor de pizza
+    description: Coche de repartidor del restaurante de la esquina
+    selectorPrefab: {fileID: 5519915614252236572, guid: e1e21d73e8b1e9e4b92089e718d03b4e,
+      type: 3}
+    racePrefab: {fileID: 5519915614252236560, guid: e1e21d73e8b1e9e4b92089e718d03b4e,
+      type: 3}
+  - name: Tanque
+    description: Coche de repartidor del restaurante de la esquina
+    selectorPrefab: {fileID: 5519915614252236572, guid: cbba68665cb6fce47b4bfe59af6f2b65,
+      type: 3}
+    racePrefab: {fileID: 5519915614252236560, guid: cbba68665cb6fce47b4bfe59af6f2b65,
+      type: 3}
+  - name: WasteLandCar
+    description: Coche de repartidor del restaurante de la esquina
+    selectorPrefab: {fileID: 5519915614252236572, guid: 1d4fe7ae53195a14c8af41eb91b29ff9,
+      type: 3}
+    racePrefab: {fileID: 5519915614252236560, guid: 1d4fe7ae53195a14c8af41eb91b29ff9,
+      type: 3}
+  - name: VaporCar
+    description: Coche de repartidor del restaurante de la esquina
+    selectorPrefab: {fileID: 5519915614252236572, guid: f74a81985ab96a04197d371bd0ba8104,
+      type: 3}
+    racePrefab: {fileID: 5519915614252236560, guid: f74a81985ab96a04197d371bd0ba8104,
+      type: 3}
+  trackList:
+  - name: "Habitaci\xF3n"
+    description: "Habitaci\xF3n de un ni\xF1o al que le gusta jugar con los coches"
+    selectorModel: {fileID: 0}
+    sceneName: GonzaloBlanch - Game
+  - name: Soviet city
+    description: "Habitaci\xF3n de un ni\xF1o al que le gusta jugar con los coches"
+    selectorModel: {fileID: 1150045316573160417, guid: 9bd9c4674dbf4d647b02afcf74edbeff,
+      type: 3}
+    sceneName: SovietCity
+  - name: Waste Land
+    description: "Habitaci\xF3n de un ni\xF1o al que le gusta jugar con los coches"
+    selectorModel: {fileID: 3308686682917119353, guid: 0d27b043f637d4b4baeb5ff33e8c0cdc,
+      type: 3}
+    sceneName: WasteLand
+  - name: VaporTrack
+    description: "Habitaci\xF3n de un ni\xF1o al que le gusta jugar con los coches"
+    selectorModel: {fileID: 919132149155446097, guid: eb42573ae06c2e84bbd0376a69b06c26,
+      type: 3}
+    sceneName: VaporWaveCity
+  trackSelectedIndex: 0
+  playersSelectedCarIndexes: 0100000002000000
+  initialScene: MainMenu
+  totalLaps: 3
+  numberOfPlayers: 1
+  gamePaused: 0
